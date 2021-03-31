@@ -1,11 +1,17 @@
 const title = document.querySelector("#title");
 
+const CLICKED_CLASS = "clicked";
+
+
 function handleClick(){
-    title.style.color = 'blue';
+    title.classList.toggle(CLICKED_CLASS);
 }
 
-title.addEventListener("click", handleClick);
-
-if (2 === 2 ){
-    console.log('hho');
+function init(){
+    title.addEventListener("click", handleClick);
 }
+
+init();
+
+
+

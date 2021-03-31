@@ -1,4 +1,13 @@
 body{
-    background-color: green;
-  }
-  
+  background-color: #64D2D2	;
+}
+
+h1{
+  color : #000000	;
+  transition: color .5s ease-in-out;
+}
+
+
+.clicked {
+  color : rgb(24, 140, 13);
+}
