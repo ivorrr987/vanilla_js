@@ -9,4 +9,5 @@ practice files
 ```
 +on August 1
     시계 만들기
+    user name 확인(미완)
 ```
