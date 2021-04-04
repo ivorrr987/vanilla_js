@@ -1,5 +1,7 @@
-nomad coder 
-practice files
+```
+nomad coder 'vanilla java script'
+    무작위 배경, 시계, To Do list, 유저명 입력과 유저명에 대한 인삿말 기능을 가진 웹페이지 제작
+```
 
 ```
 +on March 31
