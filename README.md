@@ -11,3 +11,8 @@ practice files
     시계 만들기
     user name 확인(미완)
 ```
+
+```
++on August 4
+    User name을 받고 기억, 인사
+```

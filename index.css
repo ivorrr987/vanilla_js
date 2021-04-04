@@ -2,9 +2,8 @@ body{
   background-color: #464646	;
 }
 
-h1{
+body{
   color : white	;
-  transition: color .5s ease-in-out;
 }
 
 
