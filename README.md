@@ -19,6 +19,8 @@ nomad coder 'vanilla java script'
     > User name을 받고 기억, 인사
     > To Do list 작성, 해당 list를 기억하고 새로고침 후에도 유지되도록 변경, check(delete)버튼을 눌러 To Do list에서 원하는 요소 삭제
     > 여러 개의 이미지 파일을 저장하고 해당 경로에서 무작위로 이미지 파일을 호출하여 웹 페이지의 배경으로 만듬
+```
+```   
++on August 5    
     >접속 위치 정보를 받아서 날씨 정보를 얻고 해당 지역의 이름과 온도를 표시
-
 ```
