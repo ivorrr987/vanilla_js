@@ -15,4 +15,5 @@ practice files
 ```
 +on August 4
     User name을 받고 기억, 인사
+    To Do list 작성, 해당 list를 기억하고 새로고침 후에도 유지되도록 변경, check(delete)버튼을 눌러 To Do list에서 원하는 요소 삭제
 ```
