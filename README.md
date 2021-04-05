@@ -24,3 +24,7 @@ nomad coder 'vanilla java script'
 +on August 5    
     >접속 위치 정보를 받아서 날씨 정보를 얻고 해당 지역의 이름과 온도를 표시
 ```
+```
++on August 5
+    > user name 변경 기능
+```

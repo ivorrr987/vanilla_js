@@ -1,33 +1,45 @@
-const form = document.querySelector(".js-form"),
-        input = form.querySelector("input"),
+const UserNameform = document.querySelector(".js-form"),
+        UserNameinput = UserNameform.querySelector("input"),
         greeting = document.querySelector(".js-greetings");
+        
 
 const USER_LS = "currentUser",
     SHOWING_CN = "showing";
 
-function paintGreeting(text){
-    form.classList.remove(SHOWING_CN);
-    greeting.classList.add(SHOWING_CN);
-    greeting.innerText = `Hello ${text}`
+function changeName(){
+    currentUser=localStorage.removeItem(USER_LS);
+    loadName();
+    UserNameinput.value="";
 }
 
-function handleSubmit(event){
+function paintGreeting(text){
+    const cngBtn = document.createElement("button");
+    cngBtn.innerText="↺";
+    cngBtn.addEventListener("click", changeName); 
+     
+    UserNameform.classList.remove(SHOWING_CN);
+    greeting.classList.add(SHOWING_CN);
+    greeting.innerText = `Hello ${text} `;
+    greeting.appendChild(cngBtn);  
+}
+
+function handleNameSubmit(event){
     event.preventDefault();
-    const currentValue = input.value;
-    console.log(currentValue);
-    paintGreeting(currentValue);
-    saveName(currentValue);
+    const currentNameValue = UserNameinput.value;
+    console.log(currentNameValue);
+    paintGreeting(currentNameValue);
+    saveName(currentNameValue);
 }
 
 
 
 function askForName(){
-    form.classList.add(SHOWING_CN);
-    form.addEventListener("submit", handleSubmit)
+    UserNameform.classList.add(SHOWING_CN);
+    UserNameform.addEventListener("submit", handleNameSubmit)
 }
 
 function loadName(){
-    const currentUser = localStorage.getItem(USER_LS);
+    let currentUser = localStorage.getItem(USER_LS);
     if(currentUser === null){
         //user doesn't exist
         askForName();
