@@ -2,21 +2,43 @@
 
 body{
   color : white	;
+  background : #322E2E ;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 10fr 10fr 1fr;
+  
+}
+
+.grid1{
+  grid-column: 1/3;
+  grid-row:1/11;
+}
+
+.grid2{
+  grid-column: 1;
+  grid-row:11/21;
+}
+
+.grid3{
+  grid-column:2;
+  grid-row:11/21;
+}
+
+.grid4{
+  grid-column: 1/3;
+  grid-row:21;
 }
 
 .js-clock {
   text-align: center;
-  font-size: 80px;
-}
-
-.empty{
-  display: inline-block;
-  width : 1000px;
-  
-}
-
-.content_NameToDo{
-  display: inline-block;
+  font-size: 4rem;
+  border-bottom-color: white;
+  border-bottom-width: thin;
+  border-bottom-style:solid;
+  /* margin-bottom:10px; */
 }
 
 .clicked {
@@ -27,16 +49,27 @@ body{
 .greetings{
   display: none;
   text-align: center;
-  font-size : 40px;
-  margin-top: 0;
-  margin-bottom: 10px;
+  font-size : 3rem;
+  /* margin-top: 0;
+  margin-bottom: 40px; */
+}
+
+.js-toDoForm{
+  text-align: center;
 }
 
 .showing{
   display: block;
 }
 
-.bgImage{
+.js-toDoList li{
+  border-width:thin;
+  border-style:dashed;
+  border-color:white;
+  /* margin-top : 10px; */
+}
+
+/* .bgImage{
   position: absolute;
   top: 0;
   left: 0;
@@ -44,14 +77,14 @@ body{
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
-}
+} */
 
 
 
-.js-weather {
+/* .js-weather {
   display: inline-block;
   vertical-align: bottom;
-}
+} */
 
 @keyframes fadeIn{
   from{

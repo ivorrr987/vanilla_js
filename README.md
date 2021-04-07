@@ -33,3 +33,8 @@ nomad coder 'vanilla java script'
 +on August 7
     > 온도, 지역만 표시되던 '날씨' 정보에 구체적인 날씨 설명과 국가 표시를 추가
 ```
+
+```
++on August 8
+    > css의 grid를 활용. 각 기능의 구획을 설정하여 보다 보기 편한 화면을 구현.
+```
