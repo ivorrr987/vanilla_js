@@ -28,3 +28,8 @@ nomad coder 'vanilla java script'
 +on August 5
     > user name 변경 기능
 ```
+
+```
++on August 7
+    > 온도, 지역만 표시되던 '날씨' 정보에 구체적인 날씨 설명과 국가 표시를 추가
+```

@@ -1,11 +1,23 @@
-body{
-  background-color: #464646	;
-}
+
 
 body{
   color : white	;
 }
 
+.js-clock {
+  text-align: center;
+  font-size: 80px;
+}
+
+.empty{
+  display: inline-block;
+  width : 1000px;
+  
+}
+
+.content_NameToDo{
+  display: inline-block;
+}
 
 .clicked {
   color : blue;
@@ -14,6 +26,10 @@ body{
 .form,
 .greetings{
   display: none;
+  text-align: center;
+  font-size : 40px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .showing{
@@ -28,6 +44,13 @@ body{
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+
+
+.js-weather {
+  display: inline-block;
+  vertical-align: bottom;
 }
 
 @keyframes fadeIn{

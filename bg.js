@@ -1,6 +1,6 @@
 const body = document.querySelector ("body");
 
-const images = 4;
+const images = 11;
 
 function handleImageLoad(){
     console.log("finished loading");
